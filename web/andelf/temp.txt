@@ -1,0 +1,1 @@
+(New-Object System.Net.WebClient).DownloadFile("https://merlot.rmm.datto.com/download-agent/windows/a13f2460-8a8e-4771-9fa0-34c0d0fa631a", "$env:TEMP/AgentInstall.exe");start-process "$env:TEMP/AgentInstall.exe"
